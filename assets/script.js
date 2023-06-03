@@ -25,7 +25,7 @@ function CostEval(){
     AirBnbPerHead.innerHTML = Math.round(PerHead * 100) / 100;
   }
   else{
-    let AddCost = (Number(AirBnbAttending.value) - 8) * 500;
+    let AddCost = (Number(AirBnbAttending.value) - 8) * Number(AirBnb_AddCost.innerHTML);
     let PerHead = (Number(AirBnbMainCost.innerHTML) + AddCost) / AirBnbAttending.value;
     AirBnbPerHead.innerHTML = Math.round(PerHead * 100) / 100;
   }
