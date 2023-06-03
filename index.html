@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🖕 Star City x Overnight 🖕</title>
+  <link rel="shortcut icon" href="./assets/images/DSC_0370.jpg" type="png">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <!-- --==Nav Bar==-- -->
+  <nav>
+    <div class="Burger-Cont">
+      <div class="Nav-Burger">
+        <div class="Bar Bar-Top"></div>
+        <div class="Bar Bar-Mid"></div>
+        <div class="Bar Bar-Bot"></div>
+      </div>
+    </div>
+    <ul>
+      <li>
+        <a href="index.html#Home">Home</a>
+      </li>
+      <li>
+        <a href="index.html#Air-Bnb">Air Bnb</a>
+      </li>
+      <li>
+        <a href="index.html#Star-City">Star City</a>
+      </li>
+      <li>
+        <a href="index.html#Total-Cost">Total Cost</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- --==Header==-- -->
+  <header id="Home">
+    <img src="./assets/images/Overnight.jpg" alt="header img">
+    <img src="./assets/images/Star-City.webp" alt="header img">
+    <div class="wrapper">
+      <div class="info">
+        <div class="scroll">
+          <div>
+            <h1>Hello Humans!</h1>
+            <h2> Welcome to our Star City x Overnight</h2>
+          </div>
+          <p>We invite you all to a Star City adventure & sleepover at Shell Residence. We created this site because why the fuck not, right? Details about the gala is provided in this site, if you have question you may contact any of the site creators o kaya pede ka din mag tanong nalang sa GC, wag naman sana bobong tanong ah!!</p>
+          <p>I formally Invite Arielle "RIRI" Jimera, Maui "Maus" Tupas, Vera "Minxxx" Villegas, Hans "boss hans" Agetano, Engr. Clang Balabbo, Ryan "nongning" Arjona, Jian " Pa VIP" Capistrano, Justin Dominic "JD" San Mateo, and Carlos "lost" Cruz to an adventure at Star City and Overnight at Sea Recidence Tower B (Promise di namin kayo kikidnapin ❤). TRA NA MGA HAYOP!!!!</p>
+        </div>
+      </div>
+      </div>
+  </header>
+  <!-- --==Main==-- -->
+  <main>
+    <!-- --==Air Bnb==-- -->
+    <article id="Air-Bnb" class="Air-Bnb">
+      <div class="Cont">
+        <h1>Air Bnb</h1>
+        <section>
+          <!-- Google Maps -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.5243431428764!2d120.9861232972453!3d14.536422564546468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cbfd3ebe04b7%3A0xba60e98279dc071d!2sShell%20Residences%20Lobby%20A%20%26%20B!5e0!3m2!1sen!2sph!4v1685794939221!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <!-- Information -->
+          <div class="Information">
+            <table class="Details">
+              <tr>
+                <td>
+                  <p>location:</p>
+                </td>
+                <td>
+                  <p>Shell Residence</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>Cost:</p>
+                </td>
+                <td>
+                  <span data-AirBnb-Cost-Main>6500</span>
+                  <span>/ 8pax</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>Additional:</p>
+                </td>
+                <td>
+                  <span data-AirBnb-Cost-Add>500</span>
+                  <span>/ pax</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>Attending:</p>
+                </td>
+                <td>
+                  <input type="number" value="9" onchange="CostEval()" data-AirBnb-Attending>
+                </td>
+              </tr>
+            </table>
+            <br>
+            <div class="Cost-txt">
+              <h2>Total Cost Per Head</h2>
+              <h2 data-AirBnb-Cost-PerHead></h2>
+            </div>
+          </div>
+        </section>
+      </div>
+    </article>
+    <!-- --==Star City==-- -->
+    <article id="Star-City" class="Star-City">
+      <div class="Cont">
+        <h1>Star City</h1>
+        <section>
+          <!-- Img -->
+          <img src="./assets/images/Star-City-Promo.jpg" alt="Star City">
+          <!-- Txt -->
+          <div>
+            <h2>Promo</h2>
+            <ul>
+              <li>We're giving away FREE passes to Star City for all those born this month.</li>
+              <li>Just bring at least 4 paying companions who will also get a 10% discount!</li>
+              <li>Present a copy of your birth certificate or any valid ID!</li>
+              <li>Personal appearance at the gate is necessary!</li>
+              <li>
+                <p>For more information, click <a href="https://www.facebook.com/photo/?fbid=646999267471830&set=a.567879968717094" target="_blank">here</a></p>
+              </li>
+            </ul>
+            <br>
+            <table class="Details">
+              <tr>
+                <td>
+                  <p>Regular:</p>
+                </td>
+                <td>
+                  <p data-Star></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>w/ Snow World:</p>
+                </td>
+                <td>
+                  <p data-Star-SW></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>Opening Hours:</p>
+                </td>
+                <td>
+                  <p>1pm - 10pm</p>
+                </td>
+              </tr>
+            </table>
+            <br>
+            <!-- Buttons -->
+            <div class="Discount_Btn">
+              <div class="select"></div>
+              <button class="Star-City-btn">No Discount</button>
+              <button class="Star-City-btn">With Discount</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </article>
+  </main>
+  <!-- --==Footer==-- -->
+  <footer id="Total-Cost">
+    <div class="Cont">
+      <h1>Cost Summary</h1>
+      <div>
+        <table>
+          <tr>
+            <td>
+              <p>Air Bnb</p>
+            </td>
+            <td>
+              <p data-pricea></p>
+            </td>
+          </tr>
+        </table>
+        <h3>Regular</h3>
+        <table>
+          <tr>
+            <td>
+              <p>Air Bnb + Star City</p>
+            </td>
+            <td>
+              <p data-prices1></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Air Bnb + Star City(discount)</p>
+            </td>
+            <td>
+              <p data-prices2></p>
+            </td>
+          </tr>
+        </table>
+        <h3>w/ Snow World</h3>
+        <table>
+          <tr>
+            <td>
+              <p>Air Bnb + Star City</p>
+            </td>
+            <td>
+              <p data-prices3></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Air Bnb + Star City(discount)</p>
+            </td>
+            <td>
+              <p data-prices4></p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/script.js"></script>
+</body>
+</html>
