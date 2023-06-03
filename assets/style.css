@@ -228,16 +228,17 @@ footer{
   padding: 50px 0;
   border-radius: var(--radius-1) 0 0 0;
 }
-footer .Cont{
+footer .Cont > div{
   display: flex;
   flex-direction: row;
 }
-footer .Cont > h1{ padding-right: 10px; }
-footer .Cont > div{
+footer .Cont > div > h1{ padding-right: 10px; }
+footer .Cont > div > div{
   padding-left: 20px;
   margin-right: auto;
   border-left: 2px solid #616161;
 }
+footer .Cont > p{ margin-top: 20px; }
 footer h1{
   writing-mode: vertical-rl;
   text-orientation: upright;
