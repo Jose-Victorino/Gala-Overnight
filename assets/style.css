@@ -121,9 +121,7 @@ main article{ padding: 100px 0; }
   border-radius: 0 0 0 var(--radius-1);
 }
 .Details td:first-child p{ margin-right: 6px; }
-.Details span{
-  color: var(--white-1);
-}
+.Details span{ color: var(--white-1); }
 .Air-Bnb section{
   display: flex;
   gap: 25px;
@@ -146,8 +144,7 @@ main article{ padding: 100px 0; }
   border-radius: 15px;
   border: var(--border);
 }
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button{ display: block; }
+.Air-Bnb p{ white-space: nowrap; }
 .Air-Bnb .Cost-txt :first-child{ color: var(--gold-1); }
 .Air-Bnb input{
   background: none;
@@ -156,9 +153,7 @@ input::-webkit-inner-spin-button{ display: block; }
   border: var(--border);
   width: 50px;
 }
-.Air-Bnb input:focus{
-  outline: none;
-}
+.Air-Bnb input:focus{ outline: none; }
 
 /* --==Star City==-- */
 .Star-City{
